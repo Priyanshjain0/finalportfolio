@@ -23,6 +23,6 @@ server.post('/',productController.contact)
 
 server.use(express.static('src/view')); // Correct the path for static files
 
-server.listen(7500, () => {
+server.listen(7000, () => {
   console.log("Server is running on port no 7500");
 });
